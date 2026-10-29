@@ -39,11 +39,11 @@ export default function ProdutosPage() {
       <section className="py-8 sm:py-12 bg-white">
         <div className="max-w-[1480px] mx-auto px-4 sm:px-8 lg:px-12">
           <div className="relative rounded-3xl overflow-hidden shadow-2xl border border-slate-200 bg-slate-900">
-            {/* Banner Composição: Esquerda texto escuro + Fábrica ao fundo + Laranja direita + CFW11 + SSW900 + CLP */}
-            <div className="relative w-full h-[360px] sm:h-[480px] lg:h-[560px]">
+            {/* Banner Composição: Inversor WEG CFW11 + Soft-Starter SSW900 + CLP WEG CPW500 */}
+            <div className="relative w-full aspect-[16/9] max-h-[640px] bg-slate-950">
               <Image
                 src="/images/banner-equipamentos-weg-industria.jpg"
-                alt="A alta performance industrial começa aqui - Inversor WEG CFW11, Soft-Starter SSW900 e CLP"
+                alt="A alta performance industrial começa aqui - Inversor WEG CFW11, Soft-Starter SSW900 e CLP WEG"
                 fill
                 priority
                 className="object-cover object-center"

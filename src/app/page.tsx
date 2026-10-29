@@ -24,7 +24,7 @@ export default function HomePage() {
         <div className="max-w-[1440px] mx-auto px-4 sm:px-6 lg:px-8">
           <Link href="/produtos" className="group block">
             <div className="relative rounded-3xl overflow-hidden shadow-xl border border-slate-200 bg-slate-900 group-hover:shadow-2xl group-hover:border-blue-400 transition-all duration-300">
-              <div className="relative w-full h-[280px] sm:h-[360px] lg:h-[420px]">
+              <div className="relative w-full aspect-[16/9] max-h-[460px] bg-slate-950">
                 <Image
                   src="/images/banner-equipamentos-weg-industria.jpg"
                   alt="A alta performance industrial começa aqui - Linha WEG"
