@@ -19,10 +19,26 @@ export function Header() {
 
   return (
     <header className="sticky top-0 z-50 bg-[#2d2d2d] shadow-md">
-      <div className="flex h-24 items-center justify-between px-6 lg:px-12">
-        {/* Logo (versão para fundo escuro) */}
-        <Link href="/" className="group flex items-center" aria-label="Invertronic - Início">
-          <InvertronicLogo variant="light" height={64} />
+      <div className="flex h-24 items-center justify-between pr-6 lg:pr-12">
+        {/* Logo sobre bloco branco com corte diagonal e filete amarelo */}
+        <Link
+          href="/"
+          className="group relative flex h-full items-center pl-6 pr-14 lg:pl-10 lg:pr-20"
+          aria-label="Invertronic - Início"
+        >
+          <span
+            aria-hidden
+            className="absolute inset-y-0 left-0 -right-2.5 bg-[#fbd708]"
+            style={{ clipPath: "polygon(0 0, 100% 0, calc(100% - 40px) 100%, 0 100%)" }}
+          />
+          <span
+            aria-hidden
+            className="absolute inset-0 bg-white"
+            style={{ clipPath: "polygon(0 0, 100% 0, calc(100% - 40px) 100%, 0 100%)" }}
+          />
+          <span className="relative">
+            <InvertronicLogo variant="original" height={64} />
+          </span>
         </Link>
 
         {/* Menu principal */}
