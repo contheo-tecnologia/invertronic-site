@@ -23,7 +23,7 @@ export function Header() {
         {/* Logo sobre bloco branco com corte diagonal e filete amarelo */}
         <Link
           href="/"
-          className="group relative flex h-full items-center pl-6 pr-14 lg:pl-10 lg:pr-20"
+          className="group relative flex h-full items-center pl-9 pr-14 lg:pl-[52px] lg:pr-[72px]"
           aria-label="Invertronic - Início"
         >
           <span
