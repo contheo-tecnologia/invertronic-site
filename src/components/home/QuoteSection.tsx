@@ -37,7 +37,7 @@ export function QuoteSection() {
             <MessageSquare className="w-3.5 h-3.5" />
             <span>Atendimento Comercial & Engenharia</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
             Solicite um Diagnóstico ou{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">
               Orçamento Técnico

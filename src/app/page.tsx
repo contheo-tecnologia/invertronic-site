@@ -10,28 +10,28 @@ import { QuoteSection } from "@/components/home/QuoteSection";
 export default function HomePage() {
   return (
     <>
-      {/* 1. Hero Section com Banner Amplo da Ponte Rolante & Conteúdo de Indústria 4.0 */}
+      {/* 1. Hero em tela cheia */}
       <HeroSlider />
 
-      {/* 2. Barra de Credenciais & Normas (13+ anos, 1800+ projetos) */}
-      <CredentialsBar />
-
-      {/* 3. Catálogo Técnico Interativo por Abas (Todas as Soluções) */}
-      <SolutionsTabs />
-
-      {/* 5. Seção Especial de Pontes Rolantes e Talhas Elétricas (Estilo Movequip) */}
-      <CraneAndHoistSection />
-
-      {/* 6. Seção de Indústria 4.0, CLP & SCADA (Estilo Siembra) */}
-      <Industry40Section />
-
-      {/* 7. Segmentos Industriais Atendidos */}
-      <SegmentsGrid />
-
-      {/* 8. Sobre a Empresa (Trajetória desde 2011 em Ribeirão Preto - SP) */}
+      {/* 2. Sobre a empresa (desde 2011 em Ribeirão Preto - SP) */}
       <AboutCompany />
 
-      {/* 9. Formulário de Orçamento Rápido & Contato Comercial */}
+      {/* 3. Soluções / produtos em destaque */}
+      <SolutionsTabs />
+
+      {/* 4. Faixa escura: reconhecidos por (métricas e normas) */}
+      <CredentialsBar />
+
+      {/* 5. Pontes rolantes e talhas elétricas */}
+      <CraneAndHoistSection />
+
+      {/* 6. Indústria 4.0, CLP & SCADA */}
+      <Industry40Section />
+
+      {/* 7. Segmentos atendidos (cases) */}
+      <SegmentsGrid />
+
+      {/* 8. Orçamento e contato comercial */}
       <QuoteSection />
     </>
   );

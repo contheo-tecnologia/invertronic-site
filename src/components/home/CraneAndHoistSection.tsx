@@ -28,7 +28,7 @@ export function CraneAndHoistSection() {
   ];
 
   return (
-    <section id="pontes-e-talhas" className="py-24 bg-slate-50 relative border-t border-slate-200">
+    <section id="pontes-e-talhas" className="py-24 bg-[#f5f6fa] relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Top Header */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-end mb-16">
@@ -37,7 +37,7 @@ export function CraneAndHoistSection() {
               <ShieldAlert className="w-4 h-4 text-amber-600" />
               <span>Movimentação & Elevação Segura de Cargas</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
               Engenharia Completa em{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-amber-600 via-orange-600 to-amber-700">
                 Pontes Rolantes & Talhas

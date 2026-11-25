@@ -53,7 +53,7 @@ export function WegShowcaseSection() {
             <ShieldCheck className="w-4 h-4 text-[#024162]" />
             <span>Engenharia de Acionamentos & Controle WEG</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
             Inversores WEG CFW11, Soft-Starters SSW900 e{" "}
             <span className="text-[#024162] underline decoration-[#fbd708] decoration-4 underline-offset-4">
               Automação com CLP

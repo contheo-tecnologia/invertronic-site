@@ -51,7 +51,7 @@ export default function ProdutosPage() {
             </div>
 
             {/* Tarja de Ação na Paleta Oficial */}
-            <div className="bg-[#024162] p-4 sm:p-6 text-white flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-[#012a40]">
+            <div className="bg-[#2d2d2d] p-4 sm:p-6 text-white flex flex-col sm:flex-row items-center justify-between gap-4 border-t border-black/20">
               <div className="flex items-center gap-3">
                 <span className="w-2.5 h-2.5 rounded-full bg-[#fbd708] animate-pulse" />
                 <span className="text-xs sm:text-sm text-slate-200 font-medium">
@@ -100,7 +100,7 @@ export default function ProdutosPage() {
                   <Zap className="w-4 h-4 text-[#024162]" />
                   <span>Drives de Alta Performance</span>
                 </div>
-                <h2 className="text-2xl sm:text-3xl font-black text-slate-900 tracking-tight">
+                <h2 className="text-2xl sm:text-3xl font-bold text-slate-900 tracking-tight">
                   Inversor de Frequência WEG CFW11
                 </h2>
                 <p className="text-slate-600 text-xs sm:text-sm leading-relaxed">
@@ -166,7 +166,7 @@ export default function ProdutosPage() {
                   <Gauge className="w-4 h-4 text-amber-600" />
                   <span>Partida Suave de Alta Performance</span>
                 </div>
-                <h2 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+                <h2 className="text-2xl sm:text-4xl font-bold text-slate-900 tracking-tight">
                   Soft-Starter WEG SSW900
                 </h2>
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed">
@@ -232,7 +232,7 @@ export default function ProdutosPage() {
                   <Cpu className="w-4 h-4 text-cyan-700" />
                   <span>Automação & Processos</span>
                 </div>
-                <h2 className="text-2xl sm:text-4xl font-black text-slate-900 tracking-tight">
+                <h2 className="text-2xl sm:text-4xl font-bold text-slate-900 tracking-tight">
                   Controladores Lógicos Programáveis (CLP / PLC)
                 </h2>
                 <p className="text-slate-600 text-sm sm:text-base leading-relaxed">

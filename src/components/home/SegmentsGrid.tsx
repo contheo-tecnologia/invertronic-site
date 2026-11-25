@@ -15,7 +15,7 @@ export function SegmentsGrid() {
   };
 
   return (
-    <section id="segmentos" className="py-24 bg-slate-50 relative border-t border-slate-200">
+    <section id="segmentos" className="py-24 bg-[#f5f6fa] relative">
       <div className="max-w-[1480px] mx-auto px-4 sm:px-8 lg:px-12">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
@@ -23,7 +23,7 @@ export function SegmentsGrid() {
             <Factory className="w-4 h-4 text-[#024162]" />
             <span>Presença de Mercado & Engenharia Especializada</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
             Segmentos Industriais{" "}
             <span className="text-[#024162] underline decoration-[#fbd708] decoration-4 underline-offset-4">
               Atendidos

@@ -43,7 +43,7 @@ export function Industry40Section() {
             <Wifi className="w-4 h-4 text-[#024162]" />
             <span>Fábricas Inteligentes & Conectadas</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
             Indústria 4.0 & Automação de{" "}
             <span className="text-[#024162] underline decoration-[#fbd708] decoration-4 underline-offset-4">
               Alta Precisão

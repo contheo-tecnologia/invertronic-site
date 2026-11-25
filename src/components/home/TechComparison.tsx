@@ -50,7 +50,7 @@ export function TechComparison() {
             <Sliders className="w-3.5 h-3.5 text-blue-600" />
             <span>Guia Técnico de Seleção</span>
           </div>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
             Inversor de Frequência vs{" "}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">
               Soft-Starter

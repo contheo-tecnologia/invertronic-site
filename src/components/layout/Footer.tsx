@@ -8,7 +8,7 @@ export function Footer() {
   const currentYear = 2026;
 
   return (
-    <footer className="bg-[#0b192c] text-slate-300 border-t border-slate-800">
+    <footer className="bg-[#2d2d2d] text-slate-300">
       {/* Main Footer Container */}
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">

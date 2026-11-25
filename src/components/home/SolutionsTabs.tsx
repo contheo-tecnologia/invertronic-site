@@ -42,7 +42,7 @@ export function SolutionsTabs() {
               <Shield className="w-3.5 h-3.5 text-[#024162]" />
               <span>Engenharia & Equipamentos</span>
             </div>
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight">
               Soluções Integradas para a{" "}
               <span className="text-[#024162] underline decoration-[#fbd708] decoration-4 underline-offset-4">
                 Sua Indústria

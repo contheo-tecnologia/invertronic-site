@@ -5,7 +5,7 @@ import { COMPANY } from "@/data/company";
 
 export function AboutCompany() {
   return (
-    <section id="empresa" className="py-24 bg-slate-50 relative overflow-hidden border-t border-slate-200">
+    <section id="empresa" className="py-24 bg-white relative overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           {/* Left Column: Story & Authority */}
@@ -15,7 +15,7 @@ export function AboutCompany() {
               <span>Desde 2011 em Ribeirão Preto - SP</span>
             </div>
 
-            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black text-slate-900 tracking-tight leading-tight">
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-slate-900 tracking-tight leading-tight">
               Excelência Técnica em Automação, Acionamentos e{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">
                 Movimentação Industrial
