@@ -23,7 +23,7 @@ export function Header() {
         {/* Logo sobre bloco branco com corte diagonal e filete amarelo */}
         <Link
           href="/"
-          className="group relative flex h-full items-center pl-9 pr-14 lg:pl-[52px] lg:pr-[72px]"
+          className="group relative flex h-full items-center pl-10 pr-16 lg:pl-20 lg:pr-[100px]"
           aria-label="Invertronic - Início"
         >
           <span
@@ -37,7 +37,7 @@ export function Header() {
             style={{ clipPath: "polygon(0 0, 100% 0, calc(100% - 40px) 100%, 0 100%)" }}
           />
           <span className="relative">
-            <InvertronicLogo variant="original" height={64} />
+            <InvertronicLogo variant="original" height={70} />
           </span>
         </Link>
 
